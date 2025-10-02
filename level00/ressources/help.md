@@ -33,11 +33,15 @@ I try with the hexa in the file
 
 -> xxd /usr/sbin/john
 
+(displays addresses and ASCII column)
+
 This texte appears 
 
 "0000000: 6364 6969 6464 7770 6773 7774 6774 0a    cdiiddwpgswtgt."
 
 -> xxd -p /usr/sbin/john
+
+(Each byte is represented by its two hexadecimal digits)
 
 I try the following combination with su flag00
 
